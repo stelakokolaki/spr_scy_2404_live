@@ -1,5 +1,6 @@
-package gr.codehub.s101.service;
+package gr.codehub.s101.service.impl;
 
+import gr.codehub.s101.service.GreetService;
 import lombok.NoArgsConstructor;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
@@ -11,7 +12,7 @@ import java.time.format.DateTimeFormatter;
 @Service
 @Primary
 @NoArgsConstructor
-public class GreetServiceEnglishImpl implements GreetService{
+public class GreetServiceEnglishImpl implements GreetService {
     private static final String NEW_LINE = "<br/>";
 
     public String greetWithInfo(String name) {

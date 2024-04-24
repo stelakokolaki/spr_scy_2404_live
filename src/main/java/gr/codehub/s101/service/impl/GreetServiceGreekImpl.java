@@ -1,5 +1,6 @@
-package gr.codehub.s101.service;
+package gr.codehub.s101.service.impl;
 
+import gr.codehub.s101.service.GreetService;
 import lombok.NoArgsConstructor;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Service;
